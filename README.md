@@ -1,27 +1,32 @@
 # Yatsuu Profile
+Hello and welcome to my GitHub page! I'm Yatsuuw, a passionate developer with a strong programming background. I am passionate about creating solutions that solve real-world problems and improve users' lives. 
+
+I have worked on many projects, ranging from small utility scripts to complex web applications. I also enjoy sharing my knowledge with other developers by contributing to open source projects and writing technical articles.
+
+I'm always looking for new challenges and opportunities to collaborate, so don't hesitate to contact me if you have any questions or want to discuss future projects.
 ## 🚀 About Me
-I am a developer with a passion for creating software and applications that improve people's lives. I have gained my development skills through years of professional experience, as well as through self-study and continuing education.
+I am a developer with a passion for creating software and applications that improve people's lives. I gained my development skills through years of personal experience.
 
 I am particularly proficient in web development technologies such as HTML, CSS, JavaScript, and popular frameworks such as React and Angular. I also have significant experience in backend development with languages such as Java, Python, and Node.js.
 
-I am motivated by the opportunity to tackle complex technical challenges and solve practical problems for my clients and users. I believe that software development should be user-centered and I strive to create exceptional user experiences for all products I develop.
+I am motivated by the opportunity to tackle complex technical challenges and solve practical problems for my users. I believe that software development should be user-centric and I strive to create exceptional user experiences for all products I develop.
 
-Outside of work, I enjoy exploring new technologies and participating in open-source projects. I am also a music lover and enjoy playing guitar in my free time.
+Outside of this activity, I enjoy exploring new technologies and participating in open-source projects.
 
-I am always looking for new challenges and development opportunities. Don't hesitate to contact me if you are looking for a competent and passionate developer for your team or project.
+I am always looking for new challenges and development opportunities. Feel free to contact me if you are looking for a skilled and passionate developer for your team or project.
 ## 🛠 Skills
 I have advanced skills in several programming languages such as Python, Java and C++, as well as web technologies such as HTML, CSS, JavaScript and popular frameworks such as React and Angular.
 
-I am also well versed in database development and data management, having worked with tools such as SQL, MongoDB and Firebase. I have a solid understanding of database design and data modeling principles, and am able to create efficient and effective data management systems.
+I am also well versed in database development and data management, having worked with tools such as SQL, MongoDB and Firebase. I have a solid understanding of database design and data modeling principles. I am also able to create effective and efficient data management systems.
 
-I am also skilled in project management and collaboration. I have worked closely with teams of developers, designers, project managers, and clients to complete large-scale, complex software development projects.
+I am skilled in project management and collaboration. I have worked closely with teams of developers, designers, project managers, and clients to complete large and complex software development projects.
 
-I have the necessary problem solving skills and I have a great ability to understand the needs of users and customers.
+I have the necessary problem solving skills and have a strong ability to understand user and customer needs.
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** React, React, Redux, TailwindCSS
 
-**Server:** Node, Express
+**Server:** Node, Express, VPS
 
 
 ## Additional informations
@@ -31,60 +36,29 @@ I have the necessary problem solving skills and I have a great ability to unders
 
 💬 Ask me about all areas related to computer technology....
 
-📫 How to reach me : Mail" section on my website.
+📫 How to reach me : "Mail" section on my website.
 
 😄 Pronouns : He.
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://yatsuu.fr/)
+[![portfolio](https://img.shields.io/badge/%F0%9F%93%B8-Website-black)](https://yatsuu.fr/)
 
 
-## Example : Sprite Animation
+## Example : Welcome & tasks message
 
 ```javascript
-class Sprite {
-  
-    constructor(image, frames){
-      const width = image.width, height = image.height
-    
-      let canvas = document.createElement("canvas")
-      canvas.width = width
-      canvas.height = height
-      
-      let context = canvas.getContext("2d")
-      context.drawImage(image, 0, 0)
-      
-      this.canvas = canvas
-      this.context = context
-      this.frames = frames
-    }
-    
-    drawFrame(ctx, frame, dx, dy, targetWidth, targetHeight){    
-      const { x, y, width, height } = this.frames[frame]
-      
-      dx |= 0
-      dy |= 0
-      targetWidth |= width
-      targetHeight |= height
-      
-      ctx.drawImage(this.canvas, x, y, width, height, dx, dy, targetWidth, targetHeight)
-    } 
-  }
-  
-  
-  Sprite.GeometryHorizontalLinear = (width, height, count) => {
-    let frames = [];
-    
-    for (var idx = 0; idx < count; idx += 1) {
-      var frame = { x: (width * idx), y: 0, width: width, height: height }
-      frames.push(frame)
-    }
-    
-    return frames
-  }
-  
-  export default Sprite
+// Welcome message
+console.log("Welcome to my GitHub presentation page!");
+
+// To-do list
+const tasks = ["Learn JavaScript", "Contribute to open source projects", "Create personal projects"];
+
+console.log("Tasks to do:");
+for (let i = 0; i < tasks.length; i++) {
+  console.log("- " + tasks[i]);
+}
+
 ```
 
 
@@ -93,25 +67,25 @@ class Sprite {
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+git clone https://github.com/xxx/xxx
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+cd my-project
 ```
 
-Install dependencies
+Install dependencies for JavaScript
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  npm run start
+npm run start
 ```
 
 
@@ -119,17 +93,14 @@ Start the server
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/Licenses/agpl-3.0)
+[![Apache License](https://img.shields.io/badge/Licence-Apache-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-## License
+## Global License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
+[![MIT License](https://img.shields.io/badge/Licence-MIT-red)](https://choosealicense.com/licenses/mit/)
 ## Authors
 
-- [@Yatsuu](https://www.github.com/yatsuuw)
+- [@Yatsuuw](https://www.github.com/yatsuuw)
 
 
-![Logo](https://i.pinimg.com/236x/7c/6e/23/7c6e23b51b5bfcc06c85451a00c86c02.jpg)
-
+![Logo](https://yatsuu.fr/assets/Bocchi.jpg)
